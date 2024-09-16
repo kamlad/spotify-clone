@@ -1,4 +1,4 @@
-import { TiFlowMerge } from "react-icons/ti";
+//import { TiFlowMerge } from "react-icons/ti";
 import { twMerge } from "tailwind-merge";
 
 interface BoxProps {
@@ -11,8 +11,8 @@ const Box: React.FC<BoxProps> = ({
     className
 }) => {
     return(
-        <div>
-            className={TiFlowMerge(`
+        <div
+            className={twMerge(`
             bg-neutral-900
             rounded-lg
             h-fit
@@ -20,6 +20,8 @@ const Box: React.FC<BoxProps> = ({
             `,
             className
         )}
+        >
+            {children}
         </div>
     );
 }
