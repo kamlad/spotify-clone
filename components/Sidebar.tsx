@@ -35,7 +35,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
 
     return (
-        <div className="flex h-full">
+        <div className="flex h-full w-full">
             <div
             className="
                 hidden
@@ -71,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                     <Library />
                 </Box>
             </div>
-            <main>
+            <main className="w-screen">
                 {children}
             </main>
         </div>
