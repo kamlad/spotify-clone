@@ -120,7 +120,9 @@ const Header: React.FC<HeaderProps> = ({
                 >
                     <>
                         <div>
- 
+                            <Button>
+                                Sign up
+                            </Button>
                         </div>
                     </>
 

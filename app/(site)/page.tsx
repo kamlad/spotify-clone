@@ -1,17 +1,20 @@
 
-//import Header from "@/components/Header";
+import Header from "@/components/Header";
 
 
 export default function Home() {
   return (
    <div className="
+   bg-neutral-900
+   rounded-lg
     h-full
+    w-full
     overflow-hidden
-    border-2
-    rounded-lg
-    p-2
+    overflow-y-auto
    ">
-      Main Content
+      <Header>
+        Header
+        </Header>
    </div>
    
   );
