@@ -1,4 +1,4 @@
-import React from "react";
+
 import { forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -29,7 +29,9 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps> (({
                 font-bold
                 hover:opacity-75
                 transition
-                `)}
+                `,
+                className
+                )}
                 disabled={disabled}
                 ref={ref}
                 {...props}
