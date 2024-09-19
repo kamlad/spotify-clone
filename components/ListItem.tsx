@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation"
 import Image from "next/image";
 import { FaPlay } from "react-icons/fa";
+import { FcDataRecovery } from "react-icons/fc";
 
 interface ListItemProps {
     image: string;
@@ -40,12 +41,15 @@ const ListItem: React.FC<ListItemProps> = ({
             "
             >
                 <div className="relative min-h-[64px] min-w-[64px]">
+                <FcDataRecovery />
+                    {/* 
                     <Image 
                         className="object-cover"
                         fill
                         src={image}
                         alt="Image"
                         />
+                    */}
                 </div>
                 <p className="font-medium truncate py-5">
                     {name}

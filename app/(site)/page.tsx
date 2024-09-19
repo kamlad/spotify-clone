@@ -15,7 +15,7 @@ export default function Home() {
       <Header>
         <div>
           <div className="mb-2 text-white text-2xl font-semibold">
-            Welcome back
+            Your Disaster Recovery Plans
             <h1 
               className="
                 text-white
@@ -34,7 +34,7 @@ export default function Home() {
                 ">
                 <ListItem 
                   image="/images/liked.jpeg"
-                  name="Liked songs"
+                  name="DR Plan1"
                   href="liked"
                 >
                 </ListItem>
@@ -48,11 +48,11 @@ export default function Home() {
       <div className="mt-2 mb-7 px-6">
         <div className="flex justify-between items-center">
           <h1 className="text-white text-2xl font-semibold">
-            Newest Songs
+            Status
           </h1>
         </div>
         <div>
-          List of Songs
+          Alerts
         </div>
       </div>
       
